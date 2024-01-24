@@ -13,7 +13,7 @@ services:
       dockerfile: Dockerfile
     restart: always
     ports:
-      - "85:85"
+      - "86:86"
     environment:
       ENV: PRODUCTION
       SECRET_KEY: 'frtA-PIk4qFOf15TUNW-EIYfgaaqM_SpG5nxTX4Pyqk='

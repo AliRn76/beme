@@ -9,4 +9,4 @@ RUN pip install -r requirements.txt
 
 COPY . /app/
 
-CMD ["gunicorn", "--bind", "0.0.0.0:85", "-k", "uvicorn.workers.UvicornWorker", "main:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:86", "-k", "uvicorn.workers.UvicornWorker", "main:app"]
